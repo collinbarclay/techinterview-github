@@ -26,7 +26,7 @@ fetch(url)
 									+ 'Repo: ' + data[i].repo.name + '<br>'
 									+ 'Created: ' + data[i].created_at + '</span>'
 
-									// Populates the event table itself						
+									// Populates the event table with event information			
 									+ '<a href="https://github.com/'
 									+ data[i].actor.login + '">'
 									+ data[i].actor.login + '</a></td><td>'
