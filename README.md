@@ -1,3 +1,11 @@
+# Instructions
+Open index.html and click on any row of the populated event table to see details of the selected event.
+
+
+
+
+
+
 # Technical Interview Homework: GitHub Dashboard
 
 

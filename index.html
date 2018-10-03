@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	
+		<meta charset = 'utf-8'>		
+		<link rel = 'stylesheet' type = 'text/css' href = 'css/gitEvents.css'>
+		<!-- Initialize jquery, which is used in the row-clicking function --->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		
+		<title>
+			GitHub Public Events Feed
+		</title>
+		
+	</head>
+	<body>
+	
+		<!-- Navigation Bar --->
+		<div class="navBar">
+		
+			<div class="titleHeader">
+				<p>GitHub Public Events Feed</p>
+			</div>
+			
+			<div class="refreshButton">
+				<!-- Refresh button --->
+				<button onClick="refreshPage()">Refresh</button>
+			</div>
+		
+		</div>
+		<!-- End of Navigation Bar --->
+	
+		<!-- Main Event Panel --->
+		<div class="main">
+			<table class="eventTable" id="eventTable">
+			
+				<tr>
+					<th>#</th>
+					<th>User</th>
+					<th>Event Type</th>
+					<th>Repo</th>
+				</tr>
+				
+				<tbody id="hoverTable">
+					<!-- fetch-github-events.js will populate the table --->
+				</tbody>
+				
+			</table>
+		</div>
+		<!-- End Main Event Panel --->
+		
+	</body>
+	
+	<!-- Initialize script to fetch GitHub events --->
+	<script src="js/fetch-github-events.js"></script>
+	
+</html>

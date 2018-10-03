@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+:root {
+	--top-offset: 90px; 
+}
+
+body {
+	background-color: white;
+	font-family: "Roboto", helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: black;
+}
+
+.main {
+	margin-top: var(--top-offset);
+}
+
+.navBar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;	
+	background-color: gray;
+}
+
+.titleHeader {
+	float: left;
+	margin-left: 25px;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+}
+
+.refreshButton {
+	float: right;
+	margin-right: 25px;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	padding: 5px;
+	padding-top: 9px;
+}
+
+.eventTable {
+	color: black;
+	text-align: center;
+	border-color: black;
+	margin: auto;
+	width: 90%;
+}
+
+.eventTable img {
+	width: 75px;
+	height: 75px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	margin-top: 13px;
+	float: left;
+}
+
+.eventTable th {
+	color:#D5DDE5;
+	background:#1b1e24;
+	text-align: center;
+	padding: 10px;
+}
+
+.eventTable tr {
+	color:#000000;
+	font-size:22px;
+	font-weight:normal;
+}
+
+.eventTable tr td {
+	padding: 0;
+	padding-top: 5px;
+}
+
+.eventTable tr:nth-child(even) td {
+	background: rgba(253,208,35,0.5);
+}
+
+.eventTable tr:nth-child(odd) td {
+	background: rgba(70,29,124,0.4);
+}
+
+.eventTable tr:hover td {
+	background:	lightgray;
+	color:		#FFFFFF;
+}
+
+.eventTable tr:hover td a {
+	color:		#FFFFFF;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	background-color: lightgray;
+	color: black;
+	text-align: left;
+	border: 2px solid black;
+	border-color: black;
+	border-radius: 6px;
+	z-index: 1;
+	overflow: auto;
+	white-space: nowrap;
+	position: fixed;
+	top: var(--top-offset);
+	padding: 10px;
+	width: auto;
+	display: flex;
+}
+
+.tooltip .show {
+	visibility: visible;
+}
+
+.testtext {
+	color: white;
+}
+
+button {
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	border-color: black;
+	border-radius: 8px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
