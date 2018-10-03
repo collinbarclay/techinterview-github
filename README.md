@@ -1,5 +1,5 @@
 # Instructions
-Open index.html and click on any row of the populated event table to see details of the selected event.
+Unzip the file (if zipped) and then open index.html and click on any row of the populated event table to see details of the selected event.
 
 
 
